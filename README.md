@@ -2,7 +2,7 @@
 
 My name is Kenny Miller.  I'm a web developer living in Philadelphia.  After 10+ years working in restaurants, event planning, and mental health I decided to learn how to build websites.  I will use this environment to document my progress from beginner all the way to professional beginner.  
 
-## Goals v 1.1.2
+## Goals and Accomplishments (ver 1.1.2)
 
 - Further utilize templating languages in Eleventy and implement pagination
 - Successfully integrate a website with a CMS
