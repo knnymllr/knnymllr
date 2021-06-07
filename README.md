@@ -1,4 +1,4 @@
-# 👋 👋
+# 👋
 
 My name is Kenny Miller.  I'm a web developer living in Philadelphia.  After 10+ years working in restaurants, event planning, and mental health I decided to learn how to build websites.  I will use this environment to document my progress from beginner all the way to professional beginner.  
 
