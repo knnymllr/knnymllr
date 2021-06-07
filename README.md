@@ -1,6 +1,6 @@
-# Welcome to my Portfolio Site
+# 👋 👋
 
-My name is Kenny Miller.  I'm a web developer living in Philadelphia.  After 10+ years working in restaurants, event planning, and mental health I decided to learn how to build websites.  This is my attempt to document my progress from beginner all the way to professional beginner.  
+My name is Kenny Miller.  I'm a web developer living in Philadelphia.  After 10+ years working in restaurants, event planning, and mental health I decided to learn how to build websites.  I will use this environment to document my progress from beginner all the way to professional beginner.  
 
 ## Goals v 1.1.2
 
@@ -18,4 +18,4 @@ Run `npm install` in project root directory to install all project dependencies.
 
 ## Build and Serve
 
-Run `npm run serve` in project root directory to clear output directory, build website and serve to localhost:8080.  View all scripts in `package.json`.
+Run `npm run serve` in project root directory to clear output directory, build website and serve to [https://localhost:8080/](https://localhost:8080/).  View all scripts in `package.json`.
