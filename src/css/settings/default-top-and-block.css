@@ -1,0 +1,128 @@
+/* Reset top-level elements */
+
+*,
+*:after,
+*:before { 
+    box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+/* Consistent block-level elements */
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+  }
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
+    image-rendering: auto;
+    display: block;
+    background: var(--mid-dark);
+}
+
+main {
+    padding: 0 var(--mp-large);
+
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+  }
+
+pre {
+    overflow: auto;
+}
+  
+code,
+kbd,
+pre,
+samp,
+var {
+    font-family: monospace, monospace;
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    
+}
+
+ul li:before {
+    content: "\200B";
+}
+
+/* Forms */
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}

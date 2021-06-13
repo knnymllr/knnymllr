@@ -1,0 +1,22 @@
+<div class="banner-contain">
+  <img class="banner-img"
+    src="{{ site.bannerImg }}"
+    alt="Photo by Roy Zvi Atadgy - Mountain landscape outside of Provo, UT"
+    width="1"
+    height="1"
+  />
+</div>
+<div class="profile-img">
+  <img src="{{ site.profileImg }}" 
+       alt="Kenny Miller - Web Developer" 
+       width="1"
+       height="1"
+  />
+</div>
+<nav class="">
+  <ul class="">
+    {% for page in collections.nav %}
+    <li><a href="{{page.url}}">{{ page.data.title}}</a></li>
+    {% endfor %}
+    </ul>
+</nav>

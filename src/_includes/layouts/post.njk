@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+{% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.posts | getNextCollectionItem(page) %}
+
+<article>
+    <h1 class="" itemprop="name headline">{{ title }}</h1>
+    {% if subheading %}
+        <h2>{{subheading}}</h2>
+    {% endif %}
+    <p>{{description}}</p>
+    <p>{{site.author}} | date</p>
+    <hr>
+    <div class="" itemprop="articleBody">
+        {{ content | safe }}
+    </div>
+    <div class="prev-next">
+        <div>{% if previousPost %}<p>Previous Post: <a href="{{ previousPost.url }}" rel="prev">{{ previousPost.data.title }}</a></p>{% endif %}</div>
+        <div>{% if nextPost %}<p>Next Blog Post: <a href="{{ nextPost.url }}" rel="next">{{ nextPost.data.title }}</a></p>{% endif %}</div>
+    </div>
+</article>

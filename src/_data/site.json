@@ -1,3 +1,11 @@
 {
-    "name": "Eleventy Template"
+    "name": "Kenny Miller Personal Portfolio",
+    "author": "Kenny Miller",
+    "bannerImg": "/img/promisering.jpg",
+    "profileImg": "/img/headshot.png",
+    "description": "Documenting my progress as a web developer from beginner to professional beginner.",
+    "url": "https://knnymllr.com",
+    "authorUrl": "https://github.com/knnymllr",
+    "favicon": ""
+    
 }

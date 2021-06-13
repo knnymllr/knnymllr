@@ -1,0 +1,11 @@
+{
+    "layout": "layouts/post",
+    "tags": "posts",
+    "date": "",
+    "author": "",
+    "title": "title",
+    "subheading": "subheading",
+    "description": "description",
+    "class": "post",
+    "outbound": "https://en.wikipedia.org/wiki/The_Game_(mind_game)"
+}

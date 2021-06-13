@@ -1,0 +1,32 @@
+body {
+    font-display: optional;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: 400;
+    line-height: var(--line-height);
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+::selection {
+    color: var(--dark);
+    background: var(--bright);
+    
+}
+
+/* h2, h3, etc {
+
+} */
+
+/* Lists */
+
+p, 
+ol, 
+ul {
+    font-size:1.2rem;
+}
+
+
+

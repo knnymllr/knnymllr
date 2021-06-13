@@ -1,9 +1,8 @@
-<footer class="grid">
-    <h1>Footer</h1>
-    <ul>
-        <li><a href="/">One</a></li>
-        <li><a href="/">Two</a></li>
-        <li><a href="/">Three</a></li>
-        <li><a href="/">Four</a></li>
-    </ul>
+<footer class="grid" id="footer">
+  <ul class="flex big:grid-cols-half">
+    {% for page in collections.nav %}
+    <li><a href="{{page.url}}">{{ page.data.title}}</a></li>
+    {% endfor %}
+    <li><a href="#top">Back to Top</a></li>
+  </ul>
 </footer>

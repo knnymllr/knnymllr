@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: layouts/index
+tags: nav
 class: home
+weight: 0
 ---
-
-Change this text in `index.md`.

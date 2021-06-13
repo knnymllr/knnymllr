@@ -1,0 +1,41 @@
+.flex {
+    display:flex;
+}
+
+.column {
+    flex-flow: column nowrap;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+.flex-center {
+    justify-content: center;
+}
+
+.flex-reverse {
+    flex-flow: row-reverse nowrap;
+}
+
+.flex-end {
+    justify-content:flex-end;
+}
+
+/* Gap n'sync with margin/padding Values, apply to flex or grid */
+
+.gap-xs {
+    gap:var(--mp-small);
+}
+
+.gap-small {
+    gap:var(--mp-mid);
+}
+
+.gap-mid {
+    gap:var(--mp-large);
+}
+
+.gap-large {
+    gap:var(--mp-xl);
+}
+

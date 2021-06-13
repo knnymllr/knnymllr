@@ -1,0 +1,10 @@
+/* Settings for Paper Printing */
+
+@media print {
+    body {
+        font: 1rem "Times New Roman", serif;
+        line-height: 1.3;
+    }
+
+   
+}

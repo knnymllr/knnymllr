@@ -1,0 +1,43 @@
+:root {
+    --mp-small: .5em;
+    --mp-mid: 1em;
+    --mp-large: 2em;
+    --mp-xl: 4em;
+}
+
+/* Margin */
+
+.margin-small {
+    margin: var(--mp-small);
+}
+
+.margin-mid {
+    margin: var(--mp-mid);
+}
+
+.margin-large {
+    margin:var(--mp-large);
+}
+
+.margin-xl {
+    margin:var(--mp-xl);
+}
+
+/* Padding */
+
+.padding-small {
+    padding: var(--mp-small);
+}
+
+.padding-mid {
+    padding: var(--mp-mid);
+}
+
+.padding-large {
+    padding:var(--mp-large);
+}
+
+.padding-xl {
+    padding:var(--mp-xl);
+}
+

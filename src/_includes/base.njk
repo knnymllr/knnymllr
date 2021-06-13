@@ -3,9 +3,18 @@
 {% include "partials/head.html" %}
 <body>
     {% include "partials/header.html" %}
-    <main class="main-{{class}}">
-        {{ content | safe }}
-    </main>
+    <div class="flex flex-reverse gap-mid padding-large">
+        <div class="right-contain">
+            <div class="nav-contain">
+                {% include "partials/nav.html" %}  
+            </div>
+        </div>
+        <div class="main-contain">
+            <main class="main-{{class}}" id="main">
+             {{ content | safe }}
+            </main>
+        </div>
+    </div>
     {% include "partials/footer.html" %}
     <script src="/assets/main.bundle.js"></script>
 </body>

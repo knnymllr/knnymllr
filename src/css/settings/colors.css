@@ -1,0 +1,30 @@
+/* https://toolness.github.io/accessible-color-matrix/?n=light&n=mid-light&n=bright&n=mid-dark&n=dark&v=F9F9FF&v=E2E2E2&v=BAF584&v=585858&v=292929 */
+
+:root {
+    --bright: #baf584;
+    --dark: #292929;
+    --light: #F9F9FF;
+    --mid-dark: #585858;
+    --mid-light: #e2e2e2;
+
+/* Link Color Selection (https://www.schemecolor.com/color/flags) */
+    
+}
+
+/* .theme-monochrome {
+    --bright: #c9f79e;
+    --dark: #000000;
+    --light: #FFFFFF;
+    --mid-dark: #292929;
+    --mid-light: #f3f3f3;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --bright: #c9f79e;
+        --dark: #000000;
+        --light: #FFFFFF;
+        --mid-dark: #292929;
+        --mid-light: #f3f3f3;
+    }
+} */

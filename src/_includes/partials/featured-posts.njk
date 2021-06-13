@@ -1,0 +1,16 @@
+<section class="grid">
+  <div class="grid-cols-full big:grid-cols-half">
+    {% for post in collections.posts %}
+    <article class="index-post">
+      <h1>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </h1>
+      {% if post.data.subheading %}
+        <h2>{{post.data.subheading}}</h2>
+      {% endif %}
+      <p style="font-weight: bold;">{{post.data.description}}</p>
+      <p class="post-date">{{ post.date }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>

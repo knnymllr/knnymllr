@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+<section class="">
+  <div class="">
+    {% for post in collections.posts %}
+    <article class="">
+      <h1>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </h1>
+      <p>{{post.data.description}}</p>
+      <p class="post-date">{{ post.date }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,27 @@
+/* Base Layout */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--dark);
+    background: var(--light);
+}
+
+.right-contain {
+    order: 1;
+}
+
+.main-contain {
+    background: var(--mid-light);
+    order:2;
+    min-width:100px;
+    flex-grow: 2;
+}
+
+main {
+    min-height:100vh;
+    background: inherit;
+}

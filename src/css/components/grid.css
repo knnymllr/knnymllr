@@ -1,14 +1,13 @@
-@use '../abstracts' as *;
-
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap:0.5em;
+    gap:0;
+}
 
-    @include mq(mq-small) {
+@media (min-width: 768px) {
+    .grid {
         grid-template-columns: repeat(12, 1fr);
-        gap:$mp-mid;
-        padding: $mp-large;
+        gap: var(--mp-mid);
         max-width:1440px;
         margin-left:auto;
         margin-right:auto;
@@ -30,29 +29,25 @@
 }
 
 .grid-standard-mb {
-    margin-bottom:$mp-large;
+    margin-bottom: var(--mp-large);
 }
 
-@include mq(mq-small) {
-
+@media (min-width: 768px) {
+    
     .big\:grid-cols-full {
-    
-            grid-column: 1/-1;
-    
-        
+        grid-column: 1/-1;
     }
-    
+
     .big\:grid-cols-half {
-    
         grid-column: span 6 / span 6;
     }
-    
+
     .big\:grid-cols-quarter {
         grid-column: span 3 / span 3;
     }
 
-    .big\:grid-standard-mb {
-        margin-bottom:$mp-xl;
+    .big\:grid-standard-bottom {
+        margin-bottom: var(--mp-large);
     }
-
 }
+
