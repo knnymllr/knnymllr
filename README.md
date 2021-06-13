@@ -14,7 +14,7 @@ My name is Kenny Miller.  I'm a web developer living in Philadelphia.  After 10+
 
 ## Install
 
-Run `npm install` in project root directory to install all project dependencies.  This website was built with Eleventy, Webpack, and Sass.
+Run `npm install` in project root directory to install all project dependencies.  This website was built with [Eleventy](https://11ty.dev/) and Webpack.  
 
 ## Build and Serve
 
