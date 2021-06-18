@@ -1,25 +1,36 @@
-.nav-contain {
+.profile-contain {
     background: var(--mid-dark);
+    border:2px outset black;
     display: grid;
     grid-template-columns: 15px 175px 35px 175px;
-    grid-template-rows: 50px 75px 25px 250px; 
+    grid-template-rows: 50px 75px 25px 125px; 
     padding: var(--mp-mid);
 }
 
 .banner-contain, .profile-img {
-    overflow:hidden;
+    overflow: hidden;
+}
 
+.profile-img img {
+    position: relative;
+    z-index:2;
+}
+
+.banner-img {
+    position:relative;
+    z-index:1;
 }
 
 .banner-contain {
-    background: skyblue;
+    background:black;
+    border:2px inset black;
     grid-column: 1 / -1;
-    grid-row: 1 / 3;
-    
+    grid-row: 1 / 3;    
 }
 
 .profile-img {
     background:thistle;
+    border:2px inset black;
     border-radius: 100px;
     height:150px;
     width:150px;  

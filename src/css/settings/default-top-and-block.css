@@ -48,6 +48,15 @@ strong {
   font-weight: bold;
 }
 
+code {
+    font-family:monospace, monospace;
+    background: var(--bright);
+    font-size:1.2rem;
+    padding:1px 2px;
+}
+
+
+
 dfn {
     font-style: italic;
   }
@@ -61,15 +70,22 @@ hr {
 img {
     width: 100%;
     height: auto;
-    aspect-ratio: attr(width) / attr(height);
+    /* aspect-ratio: attr(width) / attr(height); */
     image-rendering: auto;
     display: block;
     background: var(--mid-dark);
 }
 
-main {
-    padding: 0 var(--mp-large);
+kbd,
+pre,
+samp,
+var {
+    font-family: monospace, monospace;
+    font-size: 1rem;
+}
 
+main {
+    min-height:100vh;
 }
 
 mark {
@@ -77,17 +93,13 @@ mark {
     color: #000;
   }
 
+  p {
+    text-align:justify;
+    text-justify: auto;
+}
+
 pre {
     overflow: auto;
-}
-  
-code,
-kbd,
-pre,
-samp,
-var {
-    font-family: monospace, monospace;
-    font-size: 1rem;
 }
 
 ul {

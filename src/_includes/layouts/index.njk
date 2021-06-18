@@ -1,17 +1,16 @@
 ---
 layout: base
 ---
+    {%- for post in collections.posts | reverse -%}
+      <div class="blog-posts">
 
-<section class="">
-  <div class="">
-    {% for post in collections.posts %}
     <article class="">
-      <h1>
+      <h2>
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </h1>
-      <p>{{post.data.description}}</p>
-      <p class="post-date">{{ post.date }}</p>
+      </h2>
+      <strong><p>{{post.data.description}}</p></strong>
+      <p class="post-date">Last Modified: {{ post.date.toUTCString() }}</p>
     </article>
-    {% endfor %}
-  </div>
-</section>
+      </div>
+
+    {%- endfor -%}

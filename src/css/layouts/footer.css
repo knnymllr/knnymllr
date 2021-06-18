@@ -1,0 +1,11 @@
+footer { 
+    background: var(--dark);
+}
+
+footer ul {
+    padding: var(--mp-mid) var(--mp-large);
+  }
+  
+footer a {
+    color: var(--mid-light);
+  }

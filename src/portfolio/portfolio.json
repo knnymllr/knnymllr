@@ -1,5 +1,4 @@
 {
-    "layout": "layouts/portfolio-post",
-    "class": "portfolio",
-    "tags": "portfolio"
+    "tags": "portfolio",
+    "outbound": ""
 }

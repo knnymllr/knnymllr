@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    animation: fadeIn 2s ease-in-out;
     color: var(--dark);
     background: var(--light);
 }
@@ -14,14 +15,10 @@ body {
     order: 1;
 }
 
-.main-contain {
-    background: var(--mid-light);
-    order:2;
-    min-width:100px;
-    flex-grow: 2;
-}
-
 main {
-    min-height:100vh;
     background: inherit;
+    flex-grow: 2;
+    min-width:100px;
+    order:2;
+
 }

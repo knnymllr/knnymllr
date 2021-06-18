@@ -1,0 +1,6 @@
+
+.blog-posts {
+    border: 2px outset black;
+    padding: 0 var(--mp-mid);
+    margin-bottom: var(--mp-large);
+}

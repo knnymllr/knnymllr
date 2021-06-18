@@ -3,15 +3,14 @@ layout: base
 ---
 
 <section class="">
-  <div class="">
-    {% for post in collections.portfolio %}
+    {%- for post in collections.portfolio -%}
+      <div class="blog-posts">
     <article class="">
-      <h1>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </h1>
+      <h2>
+        <a href="{{ post.data.outbound | url }}">{{ post.data.title }}</a>
+      </h2>
       <p>{{post.data.description}}</p>
-      <p class="post-date">{{ post.data.dateCompleted }}</p>
     </article>
-    {% endfor %}
-  </div>
+      </div>
+    {%- endfor -%}
 </section>

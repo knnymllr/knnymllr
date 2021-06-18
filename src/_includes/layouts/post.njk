@@ -7,11 +7,8 @@ layout: base
 
 <article>
     <h1 class="" itemprop="name headline">{{ title }}</h1>
-    {% if subheading %}
-        <h2>{{subheading}}</h2>
-    {% endif %}
-    <p>{{description}}</p>
-    <p>{{site.author}} | date</p>
+    <strong><p>{{description}}</p></strong>
+    <p>{{site.author}} | Last Modified: {{ page.date.toUTCString() }} </p>
     <hr>
     <div class="" itemprop="articleBody">
         {{ content | safe }}
