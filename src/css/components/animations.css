@@ -2,6 +2,7 @@
 
 @keyframes fadeIn {
     0% {
+        background: var(--dark);
         opacity: 0;
     }
     100% {

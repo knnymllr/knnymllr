@@ -1,3 +1,7 @@
+/* Animation first? Need to avoid skip to content flash */
+
+@import 'components/animations';
+
 /* Settings */
 
 @import 'settings/fonts';
@@ -9,7 +13,6 @@
 
 /* Components */
 
-@import 'components/animations';
 @import 'components/flex';
 @import 'components/grid';
 
@@ -17,7 +20,7 @@
 
 @import 'layouts/base';
 @import 'layouts/header';
-@import 'layouts/navigation';
+@import 'layouts/profile';
 @import 'layouts/blog-and-post';
 @import 'layouts/footer';
 

@@ -1,7 +1,8 @@
 ---
-title: Home
+title: Blog
 layout: layouts/index
 tags: nav
-class: home
-weight: 0
+class: blog
+weight: 100
+
 ---

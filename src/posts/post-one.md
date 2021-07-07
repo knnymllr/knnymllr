@@ -1,22 +1,29 @@
 ---
-title: Testing Eleventy Collections
-subheading: How Bob Ross Lorem Ipsum Changed My Life
-description: Feeling glum about staring at lorem ipsum all day long? Need filler content that stands out above the rest? As usual, Bob Ross can help.
+title: Trees Grow However Makes Them Happy
+description: Feeling glum about staring at Lorem Ipsum all day long? Incorporating Bob Ross Lipsum into your design drafts might help.
+permalink: /trees-grow-however-makes-them-happy/
 ---
+Thanks to Bob Ross Lipsum I can generate oodles of filler content with a can-do attitude that speaks directly to my creative spirit and sense of self-worth.  Here's a sample:
 
-Maybe, just to play a little, we'll put a little tree here. All those little son of a guns. Here we're limited by the time we have. We tell people sometimes: we're like drug dealers, come into town and get everybody absolutely addicted to painting. It doesn't take much to get you addicted. You can create anything that makes you happy. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
+> *If what you're doing doesn't make you happy—you're doing the wrong thing. For the lack of a better word I call them hangy downs. Don't fight it, use what happens. Every single thing in the world has its own personality—and it is up to you to make friends with the little rascals.*
 
-Mountains are so simple, they're hard. Just a happy little shadow that lives in there. We'll do another happy little painting. Put your feelings into it, your heart, it's your world. Trees grow in all kinds of ways. They're not all perfectly straight. Not every limb is perfect. Just make little strokes like that.
+Admittedly, I have not spent much time thinking about Lorem Ipsum in great detail prior to writing this, though upon further consideration perhaps that's the point. Imagine you have contracted a website design for a food blog and received draft pages filled with **Content goes here, Content goes there**. Although true, reading the same few words repeating creates a distracting, predictable pattern for the brain to latch onto, and does not provide a realistic expectation of how text will render to the page. Wouldn't it be more valuable for you to evaluate the proposed design with filler text that resembles final copy?
 
-Let's do that again. You don't have to be crazy to do this but it does help. These little son of a guns hide in your brush and you just have to push them out. Nothing wrong with washing your brush. That is when you can experience true joy, when you have no fear.
+The proposed utility of Lorem Ipsum is simple—when a client is in the process of curating content it is still possible to deliver a prototype with varied word length and sentence structure. While indulging my curiosity on the subject, I came across a 2017 blog post where the author, Chaymae Lougmani, asks two questions in succession that caused me to reflect on my experience with Lorem Ipsum, and helped me realize my affinity for an amusing Lipsum generator is not rooted in nostalgia alone. 
 
-These trees are so much fun. I get started on them and I have a hard time stopping. Sometimes you learn more from your mistakes than you do from your masterpieces. Little short strokes. That easy. Poor old tree. Trees get lonely too, so we'll give him a little friend.
+> *How can you design for something you don’t even understand? How can insignificant content contribute to creating a customised experience?*
 
-You don't want to kill all your dark areas they are very important. Every time you practice, you learn more. What the devil. Let your imagination just wonder around when you're doing these things. But they're very easily killed. Clouds are delicate. Let's put some happy trees and bushes back in here.
+Though Lorem Ipsum serves its purpose as unassuming placeholder text, it may hinder how a client and designer visualize the transformation to final copy. I struggle to retain concepts in documentation that rely soley on terms like `foo` and `bar` for the same reason. Until it was pointed out to me, I believed those terms to be concepts I hadn't learned about yet, thus avoiding crucial sections of documentation in the process. 
 
-And maybe a little bush lives there. Just let this happen. We just let this flow right out of our minds. All you need to paint is a few tools, a little instruction, and a vision in your mind. You need to have a very firm paint to do this. All kinds of happy little splashes.
+When you are in-charge of the technical framework that supports another person's creative process it can be easy to take for granted the experience you provide. If you are engineering an album, you can't expect a band to envision the final product without a realistic understanding of what the tools you work with are capable of. While Lorem Ipsum won't make or break your project, you can show a collaborator that you are invested by filling a design draft with content that matches the scope of the project or inspires them to see their vision through to the end.
 
-Just use the old one inch brush. That's a son of a gun of a cloud. Here's another little happy bush Remember how free clouds are. They just lay around in the sky all day long.
+Incorporating Bob Ross Lipsum into my workflow keeps the collaboration process positive at the beginning stages of a project. Imagine you have received the same draft pages from before, but with copy in your language. Perhaps instead of Bob Ross Lipsum, the designer has included sample recipes and text from reference sites you provided. Which draft would you prefer to receive?
 
-We must be quiet, soft and gentle. Just think about these things in your mind and drop em' on canvas. Everybody's different. Trees are different. Let them all be individuals. A fan brush can be your best friend. Let's give him a friend too. Everybody needs a friend.
+This post is not affiliated with Bob Ross Lipsum in any way, it just brings me great joy. Can't stand Bob Ross? (How dare you!) Check out the ultimate list of Lipsum generators below and find one that suits your style. Alternatively, it could be a fun project to take on in your spare time—I aspire to one day create a Mitch Hedberg Lipsum Generator.
+## References
 
+- [Classic Lorem Ipsum Generator & Brief History](https://lipsum.com)
+- [Bob Ross Lipsum Generator](https://bobrosslipsum.com)
+- [Why Testing With Real Content Is Better Than Lorem Ipsum](https://blog.prototypr.io/why-testing-with-real-content-is-better-than-lorem-ipsum-c7c79586ee72)
+- [Etymology of "Foo"](http://www.faqs.org/rfcs/rfc3092.html)
+- [Ultimate List of Lorem Ipsum Generators](https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/)

@@ -1,7 +1,5 @@
 ---
 title: THC Staffing Group
-description: I migrated the THC Staffing Group website from WordPress to Eleventy and Netlify
-dateCompleted: June 1, 2020
+description: THC Staffing Group is a boutique recruitment firm dedicated to serving the cannabis industry. I migrated the site from Hugo to Eleventy, and it is hosted with Netlify.
+outbound: "https://thcstaffinggroup.com/"
 ---
-
-I migrated the THC Staffing Group website from WordPress to Eleventy and Netlify.

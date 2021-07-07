@@ -2,18 +2,16 @@
 <html lang="en">
 {% include "partials/head.html" %}
 <body>
-    {% include "partials/header.html" %}
+    {% include "partials/header.njk" %}
     <div class="flex flex-reverse gap-mid padding-large">
         <div class="right-contain">
-            <div class="nav-contain">
-                {% include "partials/nav.html" %}  
+            <div class="profile-contain">
+                {% include "partials/profile.html" %}  
             </div>
         </div>
-        <div class="main-contain">
             <main class="main-{{class}}" id="main">
              {{ content | safe }}
             </main>
-        </div>
     </div>
     {% include "partials/footer.html" %}
     <script src="/assets/main.bundle.js"></script>
