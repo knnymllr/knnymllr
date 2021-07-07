@@ -13,12 +13,19 @@ The proposed utility of Lorem Ipsum is simple—when a client is in the process 
 
 > *How can you design for something you don’t even understand? How can insignificant content contribute to creating a customised experience?*
 
+<<<<<<< HEAD
 Though Lorem Ipsum serves its purpose as unassuming placeholder text, it may hinder how a client and designer visualize the transformation to final copy. I struggle to retain concepts in documentation that rely soley on terms like `foo` and `bar` for the same reason. Until it was pointed out to me, I believed those terms to be concepts I hadn't learned about yet, thus avoiding crucial sections of documentation in the process. 
 
 When you are in-charge of the technical framework that supports another person's creative process it can be easy to take for granted the experience you provide. If you are engineering an album, you can't expect a band to envision the final product without a realistic understanding of what the tools you work with are capable of. While Lorem Ipsum won't make or break your project, you can show a collaborator that you are invested by filling a design draft with content that matches the scope of the project or inspires them to see their vision through to the end.
 
 Incorporating Bob Ross Lipsum into my workflow keeps the collaboration process positive at the beginning stages of a project. Imagine you have received the same draft pages from before, but with copy in your language. Perhaps instead of Bob Ross Lipsum, the designer has included sample recipes and text from reference sites you provided. Which draft would you prefer to receive?
 
+=======
+Though Lorem Ipsum serves its purpose as unassuming placeholder text, it may hinder how a client and designer visualize the transformation to final copy. I struggle to retain concepts in documentation that rely soley on terms like `foo` and `bar` for the same reason. Until it was pointed out to me, I believed those terms to be concepts I hadn't learned about yet, thus avoiding crucial sections of documentation in the process. When you are in-charge of the technical framework that supports another person's creative process it can be easy to take for granted the experience you provide. If you are engineering an album, you can't expect a band to envision the final product without a realistic understanding of what the tools you work with are capable of. While Lorem Ipsum won't make or break your project, you can show a collaborator that you are invested by filling a design draft with content that matches the scope of the project or inspires them to see their vision through to the end.
+
+Incorporating Bob Ross Lipsum into my workflow keeps the collaboration process positive at the beginning stages of a project. Imagine you have received the same draft pages from before, but with copy in your language. Perhaps instead of Bob Ross Lipsum, the designer has included sample recipes and text from reference sites you provided. Which draft would you prefer to receive?
+
+>>>>>>> 8ba96e6e873877b57e45a3fb77aaf56a0ee77331
 This post is not affiliated with Bob Ross Lipsum in any way, it just brings me great joy. Can't stand Bob Ross? (How dare you!) Check out the ultimate list of Lipsum generators below and find one that suits your style. Alternatively, it could be a fun project to take on in your spare time—I aspire to one day create a Mitch Hedberg Lipsum Generator.
 ## References
 
